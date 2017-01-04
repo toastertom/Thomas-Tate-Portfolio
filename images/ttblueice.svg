@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="9796 3894 1217 1241">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-Thomas_Tate_logo_Ice-Blue);
+      }
+
+      .cls-2 {
+        fill: #020202;
+        stroke: #95989a;
+        stroke-width: 1px;
+      }
+
+      .cls-3 {
+        fill: #a5f2f3;
+      }
+
+      .cls-4 {
+        stroke: none;
+      }
+
+      .cls-5 {
+        fill: none;
+      }
+
+      .cls-6 {
+        fill: #fff;
+      }
+    </style>
+    <clipPath id="clip-Thomas_Tate_logo_Ice-Blue">
+      <rect x="9796" y="3894" width="1217" height="1241"/>
+    </clipPath>
+  </defs>
+  <g id="Thomas_Tate_logo_Ice-Blue" data-name="Thomas Tate logo Ice-Blue" class="cls-1">
+    <rect class="cls-6" x="9796" y="3894" width="1217" height="1241"/>
+    <g id="Rectangle_45" data-name="Rectangle 45" class="cls-2" transform="translate(9796 3894)">
+      <rect class="cls-4" width="1217" height="1241"/>
+      <rect class="cls-5" x="0.5" y="0.5" width="1216" height="1240"/>
+    </g>
+    <rect id="Rectangle_46" data-name="Rectangle 46" class="cls-3" width="850" height="46" transform="translate(9980 4085)"/>
+    <rect id="Rectangle_47" data-name="Rectangle 47" class="cls-3" width="130" height="859" transform="translate(10340 4085)"/>
+    <rect id="Rectangle_48" data-name="Rectangle 48" width="36" height="862" transform="translate(10387 4084)"/>
+  </g>
+</svg>
