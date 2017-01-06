@@ -169,7 +169,7 @@ padding-right: 0px;
 .pbox {
   background: grey;
   padding: 60px 30px 30px 30px;
-  min-height: 300px;
+  height: 329px;
 }
 
 .portfolio a {
@@ -188,6 +188,55 @@ padding-right: 0px;
 }
 .bas {
   margin-top: 35px;
+}
+
+.drumkit {
+  margin-top: 50px;
+}
+
+
+/*Footer Content*/
+
+footer {
+  background-color: #F9F9F9;
+}
+
+.contact {
+  color: #2098D1;
+  text-align: center;
+  padding: 40px;
+}
+
+.contact h1 {
+  font-size: 34px;
+  margin-bottom: 20px;
+  margin-top: 0px;
+}
+
+.btn {
+  color: #fff;
+  background-color: #2098D1;
+  width: 80px;
+}
+
+.social {
+  background-color: #fff;
+
+}
+
+footer ul {
+  text-align: center;
+  padding: 15px;
+}
+
+footer li{
+  display: inline;
+  list-style: none;
+  margin: 15px;
+}
+.social img {
+  height: 50px;
+  width: 50px;
 }
 
 /*----- Media Queries -----*/
@@ -262,7 +311,14 @@ padding-right: 0px;
     width: 200px;
     height: 200px;
   }
+
+  /*Portfolio Content*/
+
+  .pbox {
+    max-height: 280px;
+  }
 }
+
 
 /*Laptop Down To Tablet*/
 @media only screen and (max-width: 600px) {
