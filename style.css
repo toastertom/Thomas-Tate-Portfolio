@@ -1,19 +1,22 @@
 body {
-  height: 95vh;
+  height: 100%;
   width: 100%;
+  background-color: #000;
 }
 
 .row{
   margin: 0px;
+  padding: 0px;
+  width: 100%;
 }
 
-header {
+/*Header Content*/
+
+nav {
   background-color: #2098D1;
   width: 100%;
-  height: 95px;
   padding-top: 15px;
 }
-
 .logo-container {
   display: flex;
   justify-content: center;
@@ -45,4 +48,247 @@ header {
   margin-left: 6px;
   font-size: 16px;
   color: #fff;
+}
+
+.links {
+  height: 80px;
+  padding: 30px;
+  padding-right: 80px;
+}
+
+.links  ul{
+  margin: 0px;
+  list-style: none;
+  position: relative;
+  float: right;
+
+}
+
+.links li{
+  padding: 15px;
+  font-size: 16px;
+  display: inline;
+}
+
+.links a{
+  color: #fff;
+}
+
+
+/*Hamburger*/
+
+
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*----------------------------------------*/
+
+
+/*Intro Content*/
+
+main , .intro {
+  height: calc(90vh - 100px);
+  background-color: #2098D1;
+}
+
+.intro {
+  text-align: center;
+  flex-direction: column;
+  color: #fff;
+  padding: 150px 80px 200px 80px;
+}
+
+.intro h1 {
+
+}
+
+.intro ul {
+
+}
+
+.intro li {
+  display: inline;
+  margin: 15px;
+}
+
+
+
+/*--------------------------------------*/
+
+/*About Content*/
+
+.about {
+  background-color: none;
+  height: calc(100vh - 100px);
+  width: 100%;
+  text-align: center;
+  padding: 50px;
+}
+
+.about-img{
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+
+.about img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border: 4px solid #2098D1;
+}
+
+@media (max-width: 425px) {
+  .about img{
+    height: 150px;
+    width: 150px;
+  }
+}
+
+.about-img p {
+  text-align: center;
+  font-size: 18px;
+  margin: 50px 15px 15px 15px;
+  color: #fff;
+}
+
+/*-----------------------------------------*/
+
+/*Portfolio Content*/
+
+.protfolio {
+width: 100%;
+padding-left: 0px;
+padding-right: 0px;
+}
+
+.pbox {
+  background: grey;
+  padding: 60px 30px 30px 30px;
+  min-height: 300px;
+}
+
+.portfolio a {
+  height: 100%;
+}
+
+.portfolio img{
+  text-align: center;
+}
+
+.marvel {
+  margin-top: 20px;
+}
+.marsbags {
+  margin-bottom: 40px;
+}
+.bas {
+  margin-top: 35px;
+}
+
+/*----- Media Queries -----*/
+
+
+  /*Tablet Down To Large Phone & Hamburger Menu*/
+@media only screen and (max-width: 800px) {
+
+  /*Hamburger*/
+  .logo-container {
+    width: 100%;
+    padding-top: 5px;
+  }
+
+  .hamburger {
+    padding: 15px;
+    display: block;
+    float: right;
+    vertical-align: middle;
+  }
+
+  .line {
+    border-bottom: 4px solid #fff;
+    width: 35px;
+    margin-bottom: 6px;
+  }
+
+  .line:last-child {
+    margin-bottom: 0;
+  }
+
+  .links {
+    width: 100%;
+    height:auto;
+    padding: 0px 0px 0px 0px;
+  }
+
+  .menu li {
+    display: block;
+    width: 100%;
+    background-color: #000;
+    text-align: center;
+    border-bottom: 0.5px solid rgba(153, 153, 153, 0.7);
+
+  }
+
+  .menu li:hover {
+    background-color: #013A55;
+  }
+
+  .menu {
+    height: 0;
+    width: 100%;
+    overflow: hidden;
+    transition: height 0.3s linear;
+    background-color: #000;
+  }
+
+  .slide-down {
+    height: 240px;
+  }
+
+  /*Intro Content*/
+
+  .intro {
+    padding: 80px 0px 80px 0px;
+  }
+
+  /*About Content*/
+
+  .about img {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+/*Laptop Down To Tablet*/
+@media only screen and (max-width: 600px) {
+
+  /*Intro Content*/
+
+  .intro {
+    padding: 60px 0px 80px 0px;
+  }
+
+}
+  /*Portfolio Squares*/
+@media (max-width: 1040px) {
+  .pbox{
+    width: 33.3%;
+  }
+}
+
+@media (max-width: 540px) {
+  .pbox{
+    width: 50%;
+  }
+}
+
+@media (max-width: 480px) {
+  .pbox{
+    width: 100%;
+  }
 }
