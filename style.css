@@ -115,47 +115,6 @@ main , .intro {
 }
 
 
-
-/*--------------------------------------*/
-
-/*About Content*/
-
-.about {
-  background-color: none;
-  height: calc(100vh - 100px);
-  width: 100%;
-  text-align: center;
-  padding: 50px;
-}
-
-.about-img{
-  width: 100%;
-  height: 100%;
-  text-align: center;
-}
-
-
-.about img {
-  height: 200px;
-  width: 200px;
-  border-radius: 50%;
-  border: 4px solid #2098D1;
-}
-
-@media (max-width: 425px) {
-  .about img{
-    height: 150px;
-    width: 150px;
-  }
-}
-
-.about-img p {
-  text-align: center;
-  font-size: 18px;
-  margin: 50px 15px 15px 15px;
-  color: #fff;
-}
-
 /*-----------------------------------------*/
 
 /*Portfolio Content*/
@@ -168,7 +127,7 @@ padding-right: 0px;
 
 .pbox {
   background: grey;
-  padding: 60px 30px 30px 30px;
+  padding: 60px 100px 40px 100px;
   height: 329px;
 }
 
@@ -181,18 +140,109 @@ padding-right: 0px;
 }
 
 .marvel {
-  margin-top: 20px;
+  margin-top: 50px;
 }
 .marsbags {
-  margin-bottom: 40px;
+  margin-top: 30px;
 }
 .bas {
-  margin-top: 35px;
+  margin-top: 60px;
 }
 
 .drumkit {
-  margin-top: 50px;
+  margin-top: 60px;
 }
+
+/*--------------------------------------*/
+
+/*Professional Experience Content*/
+
+.experience {
+  text-align: center;
+  background-color: grey;
+  width: 100vw;
+  padding: 40px 0px 100px 0px;
+  /*height: calc(100vh - 100px);*/
+  color: #fff;
+  background-image: url("images/edgesaquagreen.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+}
+
+.experience h1 {
+  padding-bottom: 30px;
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+
+.exp {
+  height: 329px;
+
+  background-color: #045f8c;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.exp h3 {
+  padding: 10px;
+}
+
+.exp ul {
+  padding: 20px;
+  text-align: left;
+}
+
+.exp li {
+  margin: 5px;
+}
+
+
+/*--------------------------------------*/
+
+/*About Content*/
+
+.about {
+  background: none;
+  height: calc(100vh - 100px);
+  width: 100%;
+  padding: 125px 50px 100px 50px;
+}
+
+.about-img{
+  height: 100%;
+  text-align: center;
+}
+
+
+.about img {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  border: 4px solid #045f8c;
+}
+
+@media (max-width: 425px) {
+  .about img{
+    height: 150px;
+    width: 150px;
+  }
+}
+
+.about-desc {
+  font-size: 18px;
+  color: #fff;
+}
+
+.about-desc h1 {
+  margin-top: 70px;
+}
+
+.about-desc p {
+  margin-top: 20px;
+}
+
+/*-----------------------------------------*/
 
 
 /*Footer Content*/
