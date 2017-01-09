@@ -183,7 +183,7 @@ padding-right: 0px;
   height: 100%;
 }
 
-.portfolio img{
+.portfolio .pbox img{
   display: block;
   position: absolute;
   top: 50%;
