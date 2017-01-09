@@ -83,7 +83,7 @@ nav {
 }
 
 .menu a:hover{
-  text-decoration: underline;
+  text-decoration: none;
   text-underline-position: below;
   transition: text-decoration 1s;
 }
@@ -169,8 +169,9 @@ padding-right: 0px;
 
 /*Portfolio Hover Effects*/
 
-.pbox:hover {
-  padding: 80px 120px 60px 120px;
+.pbox:hover img{
+  padding: 30px;
+  transition: padding 1s;
  }
 
  .pbox:hover #overlay {
@@ -192,27 +193,9 @@ padding-right: 0px;
   transform: translateX(-50%) translateY(-50%) translateZ(0);
 }
 
-/*.marvel {
-  margin-top: 50px;
+.snake {
+  font-family: 'Righteous';
 }
-.marsbags {
-  margin-top: 30px;
-}
-.bas {
-  margin-top: 60px;
-}
-
-.drumkit {
-  margin-top: 60px;
-}
-
-.canvas-crazy {
-  margin-top: 70px;
-}
-
-.voice {
-  margin: 50px;
-}*/
 
 /*--------------------------------------*/
 
