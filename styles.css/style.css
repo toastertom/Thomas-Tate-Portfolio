@@ -216,10 +216,8 @@ padding-right: 0px;
 
 .experience {
   text-align: center;
-  background-color: grey;
   width: 100vw;
   padding: 40px 0px 100px 0px;
-  /*height: calc(100vh - 100px);*/
   color: #fff;
   background-image: url("images/edgesaquagreen.svg");
   background-repeat: no-repeat;
@@ -266,7 +264,7 @@ padding-right: 0px;
 
 .about {
   background: #211A23;
-  height: calc(100vh - 100px);
+  height: 624px;
   width: 100%;
   padding: 125px 50px 100px 50px;
 }
@@ -297,7 +295,7 @@ padding-right: 0px;
 }
 
 .about-desc h1 {
-  margin-top: 70px;
+  margin-top: 50px;
 }
 
 .about-desc p {
@@ -372,95 +370,6 @@ footer li{
 
 /* Media Queries */
 
-
-  /*Tablet Down To Large Phone & Hamburger Menu*/
-@media only screen and (max-width: 800px) {
-
-  /*Hamburger*/
-  .logo-container {
-    width: 100%;
-    padding-top: 5px;
-  }
-
-  .hamburger {
-    padding: 15px;
-    display: block;
-    float: right;
-    vertical-align: middle;
-  }
-
-  .line {
-    border-bottom: 4px solid #fff;
-    width: 35px;
-    margin-bottom: 6px;
-  }
-
-  .line:last-child {
-    margin-bottom: 0;
-  }
-
-  .links {
-    width: 100%;
-    height:auto;
-    padding: 0px 0px 0px 0px;
-  }
-
-  .menu li {
-    display: block;
-    width: 100%;
-    background-color: #000;
-    text-align: center;
-    border-bottom: 0.5px solid rgba(153, 153, 153, 0.7);
-
-  }
-
-  .menu li:hover {
-    background-color: #013A55;
-  }
-
-  .menu {
-    height: 0;
-    width: 100%;
-    overflow: hidden;
-    transition: height 0.3s linear;
-    background-color: #000;
-  }
-
-  .slide-down {
-    height: 240px;
-  }
-
-  /*Intro Content*/
-
-  .intro {
-    padding: 80px 0px 80px 0px;
-  }
-
-  /*About Content*/
-
-  .about img {
-    width: 200px;
-    height: 200px;
-  }
-
-  /*Portfolio Content*/
-
-  .pbox {
-    max-height: 280px;
-  }
-}
-
-
-/*Laptop Down To Tablet*/
-@media only screen and (max-width: 600px) {
-
-  /*Intro Content*/
-
-  .intro {
-    padding: 60px 0px 80px 0px;
-  }
-
-}
   /*Portfolio Squares*/
 @media (max-width: 1040px) {
   .pbox{

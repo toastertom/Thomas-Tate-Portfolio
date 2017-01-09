@@ -11,6 +11,9 @@
 
   <!-- Styles -->
   <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="responsive/phonescreen.css"/>
+  <link rel="stylesheet" href="responsive/tabletscreen.css"/>
+  <link rel="stylesheet" href="responsive/largescreen.css"/>
 
   </head>
   <body>
@@ -36,10 +39,10 @@
         </div>
 
         <ul class="menu">
-          <li><a href="#">SKILLS</a></li>
-          <li><a href="#">ABOUT</a></li>
-          <li><a href="#">PORTFOLIO</a></li>
-          <li><a href="#">CONTACT</a></li>
+          <li><a href="#portfolio">PORTFOLIO</a></li>
+          <li><a href="#skills">SKILLS</a></li>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#contact">CONTACT</a></li>
         </ul>
       </div>
     </nav>
@@ -57,27 +60,43 @@
             <li>SQL</li>
             <li>Git</li>
           </ul>
-        <a>View Portfolio <br/><span class="glyphicon glyphicon-chevron-down"></span></a>
+        <!-- <a>View Portfolio <br/><span class="glyphicon glyphicon-chevron-down"></span></a> -->
 
         </div>
       </div>
 
-
+      <a id="portfolio"></a>
       <div class="portfolio row">
           <div class="pbox col-xs-4" style="background-color: #AC1301">
+            <img class="marvel" src="images/marveldark.svg"></img>
             <a href="https://toastertom.github.io/marvel_api/" target="_blank">
-              <img class="marvel" src="images/marveldark.svg"></img>
+              <div id="overlay">
+                <h3>Front-End</h3>
+                <p>Built in Angular.js this web app connects to Marvel Comic's API and allows users to dynamicaly search for data on any character in the Marvel Universe. </p>
+              </div>
             </a>
           </div>
+
           <div class="pbox col-xs-4"  style="background-color: #32342D">
+
+                <img class="marsbags" src="images/marsbags.svg"></img>
+
             <a href="https://cryptic-hamlet-76971.herokuapp.com/#/" target="_blank">
-              <img class="marsbags" src="images/marsbags.svg"></img>
+              <div id="overlay">
+                <h3>Full-Stack</h3>
+                <p></p>
+              </div>
             </a>
           </div>
 
           <div class="pbox col-xs-4"  style="background-color: #045F8C">
+
+                <img class="canvas-crazy" src="images/canvascrazylightred.svg"></img>
+
             <a href="https://toastertom.github.io/Thomas-Tate-Portfolio/canvascrazy/canvascrazy.html" target="_blank">
-              <img class="canvas-crazy" src="images/canvascrazylightred.svg"></img>
+              <div id="overlay">
+                <h3>Vanilla JavaSript</h3>
+              </div>
             </a>
           </div>
 
@@ -85,36 +104,55 @@
       <!-- Portfolio Row 2 -->
         <div class="portfolio row">
             <div class="pbox col-xs-4" style="background-color: #006666">
+
+                  <img class="drumkit" src="images/drumkitlogo.svg"></img>
+
               <a href="https://toastertom.github.io/Thomas-Tate-Portfolio/drumkit/drumKit.html" target="_blank">
-                <img class="drumkit" src="images/drumkitlogo.svg"></img>
+                <div id="overlay">
+                  <h3>Vanilla JavaSript</h3>
+                </div>
               </a>
             </div>
 
             <div class="pbox col-xs-4" style="background-color: #E3E0E1">
+
+                  <img class="bas" src="images/bas.svg"></img>
+
               <a src="#">
-                <img class="bas" src="images/bas.svg"></img>
+                <div id="overlay">
+                  <h3>Front-End</h3>
+                </div>
               </a>
             </div>
 
-            <div class="pbox col-xs-4" style="background-color: #AE9D81">
-              <a src="#">
-                <img class="bas" src="images/bas.svg"></img>
+            <div class="pbox col-xs-4" style="background-color: #393D98">
+
+                  <img class="voice" src="images/voice.svg"></img>
+
+              <a href="https://toastertom.github.io/Thomas-Tate-Portfolio/drumkit/speachrecognition.html" target="_blank">
+                <div id="overlay">
+                  <h3>Vanilla JavaSript</h3>
+                </div>
               </a>
             </div>
           </div>
 
+          <a id="skills"></a>
           <div class="experience">
-
-              <h1>Professional Experience</h1>
+              <h1>
+                Professional Experience
+                <div class="under-line"></div>
+              </h1>
 
             <div class="row">
               <div class="col-sm-4">
                 <div class="exp">
                   <h3>Sales</h3>
                     <ul>
-                      <li>alsdkjfl;as</li>
-                      <li>alsdkjfl;as</li>
-                      <li>alsdkjfl;as</li>
+                      <li><p>Consistently meet or exceed monthly sales goals in competitive environment</p></li>
+                      <li><p>Three years of experience working in competitive sales environment</p></li>
+                      <li><p>Strong ability to upsell products &amp; perform B2B sales</p></li>
+                      <li><p>Performed weekly outbound calling campaigns and other forms of cold calling</p></li>
                     </ul>
                 </div>
               </div>
@@ -122,9 +160,10 @@
                 <div class="exp">
                   <h3>Management</h3>
                     <ul>
-                      <li>alsdkjfl;as</li>
-                      <li>alsdkjfl;as</li>
-                      <li>alsdkjfl;as</li>
+                      <li><p>Entrepreneurial mindset with a the desire for improvement and achieving goals</p></li>
+                      <li><p>Experience in determining profitable pricing models</p></li>
+                      <li><p>Involved in the creation and development of two small businesses</p></li>
+                      <li><p>Three years of event management experience organizing large and small corperate events</p></li>
                     </ul>
                 </div>
               </div>
@@ -132,15 +171,16 @@
                 <div class="exp">
                   <h3>Customer Service</h3>
                     <ul>
-                      <li>alsdkjfl;as</li>
-                      <li>alsdkjfl;as</li>
-                      <li>alsdkjfl;as</li>
+                      <li><p>Over seven years of professional experience in Customer Service</p></li>
+                      <li></p>Reputation for creating and maintaing lasting relationships with coworkers and customers</p></li>
+                      <li><p>Ability to resolve conflicts for high needs customers</p></li>
                     </ul>
                 </div>
               </div>
             </div>
           </div>
 
+          <a id="about"></a>
           <div class="about">
             <div class="row">
               <div class="about-img  col-sm-5">
@@ -157,6 +197,7 @@
             </div>
 
       <footer>
+        <a id="contact"></a>
         <div class="container">
           <div class="contact col-sm-12">
             <h1>Reach Out</h1>
