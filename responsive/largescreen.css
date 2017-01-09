@@ -13,12 +13,8 @@
   padding-bottom: 260px;
 }
 
-.pbox {
+/*.pbox {
   height: 380px;
-}
-
-.about {
-  height: 550px;
 }
 
 .marvel {
@@ -41,6 +37,10 @@
 
 .voice {
   margin: 25px 40px 50px 40px;
+}*/
+
+.about {
+  height: 550px;
 }
 
 }

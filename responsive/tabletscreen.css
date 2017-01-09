@@ -70,12 +70,12 @@
 
   /*Portfolio Content*/
 
-  .pbox {
+  /*.pbox {
     max-height: 280px;
     padding: 50px 100px 40px 100px;
-  }
+  }*/
 
-  .marvel {
+  /*.marvel {
     margin-top: 50px;
   }
   .marsbags {
@@ -96,5 +96,5 @@
   .voice {
     margin: 0px;
     padding: 0px;
-  }
+  }*/
 }

@@ -73,7 +73,7 @@
 
   /*Portfolio Content*/
 
-  .pbox {
+  /*.pbox {
     max-height: 280px;
     padding: 50px 100px 40px 100px;
   }
@@ -99,7 +99,7 @@
   .voice {
     margin: 0px;
     padding: 0px;
-  }
+  }*/
 }
 
 
@@ -110,7 +110,7 @@
     width: 130px;
   }
 
-  .pbox {
+  /*.pbox {
     max-height: 280px;
     padding: 50px 75px 40px 75px;
   }
@@ -136,7 +136,7 @@
   .voice {
     margin: 20px;
     padding-top: 10px;
-  }
+  }*/
 
   .about {
     background: #211A23;

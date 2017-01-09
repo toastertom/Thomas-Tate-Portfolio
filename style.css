@@ -137,7 +137,6 @@ padding-right: 0px;
 
 .pbox {
   background: grey;
-  padding: 60px 100px 40px 100px;
   height: 329px;
   transition: padding 1s, opacity 1s;
   position: relative;
@@ -185,10 +184,15 @@ padding-right: 0px;
 }
 
 .portfolio img{
-  text-align: center;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  max-width: 50%;
+  transform: translateX(-50%) translateY(-50%) translateZ(0);
 }
 
-.marvel {
+/*.marvel {
   margin-top: 50px;
 }
 .marsbags {
@@ -208,7 +212,7 @@ padding-right: 0px;
 
 .voice {
   margin: 50px;
-}
+}*/
 
 /*--------------------------------------*/
 
