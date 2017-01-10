@@ -13,7 +13,7 @@ body {
 /*Header Content*/
 
 nav {
-  background-color: #2098D1;
+  background-color: #0078D7;
   width: 100%;
   padding-top: 15px;
 }
@@ -103,7 +103,7 @@ nav {
 
 main , .intro {
   height: calc(90vh - 100px);
-  background-color: #2098D1;
+  background-color: #0078D7;
 }
 
 .intro {
