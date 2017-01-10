@@ -59,15 +59,37 @@ nav {
 .links  ul{
   margin: 0px;
   list-style: none;
-  position: relative;
+  position:relative;
   float: right;
 
 }
 
 .links li{
-  padding: 15px;
+  padding: 5px 0px 5px 0px;
+  margin: 0px 15px 0px 15px;
   font-size: 16px;
   display: inline;
+  position: relative;
+}
+
+.links li:hover{
+  position: relative;
+  animation: navlinks 200ms ease-in-out forwards;
+  perspective: 1000px;
+}
+
+@keyframes navlinks {
+  0% {
+    border-bottom: 0px solid #fff;
+    border-top: 0px solid #fff;
+    font-size: 16px;
+  }
+
+  100% {
+    border-bottom: 2px solid #fff;
+    border-top: 2px solid #fff;
+    font-size: 17px;
+  }
 }
 
 .links a{
