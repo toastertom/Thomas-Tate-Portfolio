@@ -240,6 +240,7 @@ padding-right: 0px;
 .exp ul {
   padding: 20px;
   text-align: left;
+  height: 70%;
 }
 
 .exp li {
@@ -253,9 +254,11 @@ padding-right: 0px;
 
 .about {
   background: #211A23;
-  height: calc(100vh - 100px);
+  /*height: calc(100vh - 100px);*/
+  height: auto;
+  /*min-height: 500px;*/
   width: 100%;
-  padding: 125px 50px 100px 50px;
+  padding: 125px 50px 125px 50px;
 }
 
 .about-img{

@@ -61,6 +61,12 @@
     padding: 80px 0px 80px 0px;
   }
 
+  /*Experience Content*/
+
+  .exp {
+    height: auto;
+  }
+
   /*About Content*/
 
   .about img {
@@ -68,33 +74,9 @@
     height: 200px;
   }
 
-  /*Portfolio Content*/
-
-  /*.pbox {
-    max-height: 280px;
-    padding: 50px 100px 40px 100px;
-  }*/
-
-  /*.marvel {
-    margin-top: 50px;
-  }
-  .marsbags {
-    margin-top: 30px;
-  }
-  .bas {
-    margin-top: 60px;
+  .about h1 {
+    margin-top: 20px;
   }
 
-  .drumkit {
-    margin-top: 60px;
-  }
 
-  .canvas-crazy {
-    margin-top: 70px;
-  }
-
-  .voice {
-    margin: 0px;
-    padding: 0px;
-  }*/
 }
