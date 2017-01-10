@@ -13,34 +13,12 @@
   padding-bottom: 260px;
 }
 
-/*.pbox {
-  height: 380px;
-}
-
-.marvel {
-  margin-top: 70px;
-}
-.marsbags {
-  margin-top: 60px;
-}
-.bas {
-  margin-top: 80px;
-}
-
-.drumkit {
-  margin-top: 85px;
-}
-
-.canvas-crazy {
-  margin-top: 100px;
-}
-
-.voice {
-  margin: 25px 40px 50px 40px;
-}*/
 
 .about {
   height: 550px;
+}
+.about h1 {
+  margin-top: 50px;
 }
 
 }

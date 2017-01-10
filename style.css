@@ -75,6 +75,8 @@ nav {
 }
 
 
+
+
 /*Hamburger*/
 
 .menu  a{
@@ -221,12 +223,12 @@ padding-right: 0px;
 .experience .under-line {
   margin: 0 auto;
   margin-top: 15px;
-  width: 350px;
+  width: 280px;
   box-shadow: 6px 6px 5px rgba(33, 26, 35, 0.5);
 }
 
 .exp {
-  height: 329px;
+  height: 400px;
   box-shadow: 6px 6px 5px rgba(33, 26, 35, 0.5);
   background-color: #045f8c;
   margin-top: 50px;
