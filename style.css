@@ -344,11 +344,24 @@ footer {
 }
 
 .btn {
-  color: #fff;
   background-color: #2098D1;
   width: 150px;
   font-size: 18px;
   margin-top: 15px;
+  font-style: none;
+}
+
+.btn a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #045f8c;
+  color: #fff;
+  font-size: 16px;
+  transition: background-color 0.5s;
+  height: 39px;
 }
 
 .social {
