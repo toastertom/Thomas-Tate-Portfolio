@@ -8,6 +8,28 @@ $(document).ready(function() {
     $('.menu').toggleClass('slide-down');
   });
 
+  // Experience Buttons
+  $('.exp1').on('click', function(e) {
+    e.preventDefault();
+    if ( $("#exp1") ) {
+      $("#exp1").toggleClass('slide-down');
+    }
+  });
+
+  $('.exp2').on('click', function(e) {
+    e.preventDefault();
+    if ( $("#exp2") ) {
+      $("#exp2").toggleClass('slide-down');
+    }
+  });
+
+  $('.exp3').on('click', function(e) {
+    e.preventDefault();
+    if ( $("#exp3") ) {
+      $("#exp3").toggleClass('slide-down');
+    }
+  });
+
 
 
 });

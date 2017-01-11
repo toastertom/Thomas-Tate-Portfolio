@@ -239,46 +239,81 @@ padding-right: 0px;
   text-align: center;
   background-color: grey;
   width: 100vw;
-  padding: 40px 0px 100px 0px;
+  padding: 0px 0px 100px 0px;
   /*height: calc(100vh - 100px);*/
   color: #fff;
-  background-image: url("images/edgesaquagreen.svg");
+  background-image: url("images/letters.svg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
+.exp-header{
+  width: 100%;
+  background-color: #4F5052;
+}
 .experience h1 {
-  padding-bottom: 30px;
+  padding: 20px 0px 20px 0px;
   margin-top: 0px;
+  margin-bottom: 90px;
+  position: relative;
+  /*text-shadow: 6px 6px 5px rgba(33, 26, 35, 0.5);*/
 }
 
 .experience .under-line {
   margin: 0 auto;
   margin-top: 15px;
   width: 280px;
-  box-shadow: 6px 6px 5px rgba(33, 26, 35, 0.5);
+  /*box-shadow: 6px 6px 5px rgba(33, 26, 35, 0.5);*/
 }
 
 .exp {
-  height: 400px;
   box-shadow: 6px 6px 5px rgba(33, 26, 35, 0.5);
-  background-color: #045f8c;
-  margin-top: 50px;
+  background-color: #F9F9F9;
+  height: auto;
+  margin-top: 0px;
   text-align: center;
+  display: none;
 }
 
-.exp h3 {
-  padding: 10px;
+.exp-button {
+  width: 100%;
+  box-shadow: 6px 6px 5px rgba(33, 26, 35, 0.5);
+  background: #045f8c;
+  padding: 10px 0px 10px 0px;
+  margin: 10px 0px 10px 0px;
+}
+
+.exp-button:hover {
+  background-color: #2098D1;
+  color: #fff;
+  font-size: 16px;
+  transition: background-color 0.5s;
+}
+
+.exp-button h3 {
+  padding: 10px 10px 0px 10px;
+  margin: 0px;
 }
 
 .exp ul {
   padding: 20px;
+  margin: 10px;
   text-align: left;
-  height: 70%;
+  height: 0 auto;
+  position: relative;
+
 }
 
 .exp li {
   margin: 5px;
+  position: relative;
+  border-bottom: 1px solid #045f8c;
+  color: #045f8c
+}
+
+.slide-down {
+  display:block;
+  transition: visibility 1s ease-in-out;
 }
 
 
@@ -354,7 +389,7 @@ footer {
 }
 
 .btn {
-  background-color: #2098D1;
+  background-color: #045f8c;
   width: 150px;
   font-size: 18px;
   margin-top: 15px;
@@ -367,7 +402,7 @@ footer {
 }
 
 .btn:hover {
-  background-color: #045f8c;
+  background-color: #2098D1;
   color: #fff;
   font-size: 16px;
   transition: background-color 0.5s;
