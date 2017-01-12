@@ -290,6 +290,10 @@ padding-right: 0px;
   transition: background-color 0.5s;
 }
 
+.exp-button:hover h3 {
+  font-size: 26px;
+}
+
 .exp-button h3 {
   padding: 10px 10px 0px 10px;
   margin: 0px;
@@ -313,7 +317,6 @@ padding-right: 0px;
 
 .slide-down {
   display:block;
-  transition: visibility 1s ease-in-out;
 }
 
 
@@ -356,7 +359,7 @@ padding-right: 0px;
 }
 
 .about-desc h1 {
-  margin-top: 70px;
+  margin-top: 10px;
 }
 
 .about-desc p {
@@ -389,7 +392,7 @@ footer {
 }
 
 .btn {
-  background-color: #045f8c;
+  background-color: #2098D1;
   width: 150px;
   font-size: 18px;
   margin-top: 15px;
@@ -402,11 +405,11 @@ footer {
 }
 
 .btn:hover {
-  background-color: #2098D1;
+  background-color: #045f8c;
   color: #fff;
-  font-size: 16px;
+  font-size: 19px;
   transition: background-color 0.5s;
-  height: 39px;
+  height: 39.5px;
 }
 
 .social {
