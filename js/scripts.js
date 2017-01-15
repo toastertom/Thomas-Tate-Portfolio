@@ -8,6 +8,8 @@ $(document).ready(function() {
     $('.menu').toggleClass('slide-down');
   });
 
+
+
   // Experience Buttons
   $('.exp1').on('click', function(e) {
     e.preventDefault();
@@ -32,4 +34,22 @@ $(document).ready(function() {
 
 
 
+  // Smooth scrolling nav links
+$("a").on('click', function(event) {
+
+  if (this.hash !== "") {
+    event.preventDefault();
+    var hash = this.hash;
+
+    $('html, body').animate({
+      scrollTop: $(hash).offset().top
+    }, 800, function(){
+
+      window.location.hash = hash;
+    });
+  }
 });
+
+
+
+});//End jQuery

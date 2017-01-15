@@ -194,7 +194,7 @@ padding-right: 0px;
   text-align: left;
   padding-left: 4px;
   padding-right: 4px;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 /*Portfolio Hover Effects*/
@@ -225,6 +225,10 @@ padding-right: 0px;
 
 .snake {
   font-family: 'Righteous';
+}
+
+.voice {
+  height: 200px;
 }
 
 /*--------------------------------------*/
