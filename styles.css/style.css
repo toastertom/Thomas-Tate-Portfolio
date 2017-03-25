@@ -4,6 +4,16 @@ body {
   background-color: #000;
 }
 
+<<<<<<< HEAD:styles.css/style.css
+=======
+.intro-header {
+  background-image: url("images/edges.svg");
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+>>>>>>> parent of 568b00d... Made Some of the SVG files smaller:style.css
 .row{
   margin: 0px;
   padding: 0px;
